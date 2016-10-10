@@ -1,4 +1,8 @@
-function pingPong(goal) {
+function Calculator(skinName) {
+  this.skin = skinName;
+}
+
+Calculator.prototype.pingPong = function(goal) {
   var output = [];
   for (var i = 1; i <= goal; i++) {
     if (i % 15 === 0) {
@@ -12,4 +16,6 @@ function pingPong(goal) {
     }
   }
   return output;
-}
+};
+
+exports.calculatorModule = Calculator;

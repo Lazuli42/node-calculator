@@ -1,0 +1,30 @@
+{
+  "name": "ping-pong",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lazuli42/node-calculator.git"
+  },
+  "author": "\"Zachary Baum, Anand Angalig\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lazuli42/node-calculator/issues"
+  },
+  "homepage": "https://github.com/Lazuli42/node-calculator#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
