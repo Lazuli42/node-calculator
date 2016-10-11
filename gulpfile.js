@@ -93,3 +93,7 @@ gulp.task('jsBuild', ['jsBrowserify', 'jshint'], function(){
 gulp.task('htmlBuild', function() {
   browserSync.reload();
 });
+
+gulp.task('bowerBuild', ['bower'], function(){
+  browserSync.reload();
+});
